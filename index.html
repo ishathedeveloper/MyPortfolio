@@ -32,10 +32,12 @@
                             <div class="logo">
                                 <a href="index.html">
                                     <img class="logo-dark"
-                                        src="assets/images/logo/white-logo-reeni.png"
+                                        style="width: 10%"
+                                        src="assets/images/logo/ishaLogo.png"
                                         alt="Virtuo - Personal Portfolio HTML Template for developers and freelancers">
                                     <img class="logo-white"
-                                        src="assets/images/logo/white-logo-reeni.png"
+                                        style="width: 10%"
+                                        src="assets/images/logo/ishaLogo.png"
                                         alt="Virtuo - Personal Portfolio HTML Template for developers and freelancers">
                                 </a>
                             </div>
@@ -68,30 +70,6 @@
                                                 href="#blog">Blog</a></li>
                                     </ul>
                                 </nav>
-                            </div>
-
-                            <div class="tmp-header-right">
-                                <div
-                                    class="social-share-wrapper d-none d-md-block">
-                                    <div class="social-link">
-                                        <a href="#"><i
-                                                class="fa-brands fa-instagram"></i></a>
-                                        <a href="#"><i
-                                                class="fa-brands fa-linkedin-in"></i></a>
-                                        <a href="#"><i
-                                                class="fa-brands fa-twitter"></i></a>
-                                        <a href="#"><i
-                                                class="fa-brands fa-facebook-f"></i></a>
-                                    </div>
-                                </div>
-
-                                <div
-                                    class="tmp-side-collups-area d-block d-xl-none">
-                                    <button
-                                        class="hamberger-menu humberger_menu_active"><i
-                                            id="menuBtn"
-                                            class="fa-light fa-bars humberger-menu"></i></button>
-                                </div>
                             </div>
 
                         </div>
@@ -140,21 +118,6 @@
                                 href="#contacts">Contact</a></li>
                     </ul>
 
-                    <!-- social sharea area -->
-                    <div class="social-wrapper mt--40">
-                        <span class="subtitle">find with me</span>
-                        <div class="social-link">
-                            <a href="#"><i
-                                    class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i
-                                    class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="#"><i
-                                    class="fa-brands fa-facebook-f"></i></a>
-                        </div>
-                    </div>
-                    <!-- end -->
-
                 </div>
             </div>
         </div>
@@ -198,7 +161,8 @@
                                                     class="is-hidden theme-gradient">UI/UX
                                                     Designer.</b>
                                                 <b
-                                                    class="is-hidden theme-gradient">Freelancer.</b>
+                                                    class="is-hidden theme-gradient">Angular
+                                                    Developer.</b>
                                                 <b
                                                     class="is-hidden theme-gradient">Backend
                                                     Developer.</b>
@@ -260,7 +224,7 @@
         <section class="service-area tmp-section-gap" id="service">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div
                             class="service-card-v1 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-1 tmp-link-animation">
                             <div class="service-card-icon">
@@ -272,7 +236,7 @@
                             <p class="service-para">120 Projects</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div
                             class="service-card-v1 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-2 tmp-link-animation">
                             <div class="service-card-icon">
@@ -284,7 +248,7 @@
                             <p class="service-para">241 Projects</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
                         <div
                             class="service-card-v1 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-link-animation">
                             <div class="service-card-icon">
@@ -296,7 +260,7 @@
                             <p class="service-para">240 Projects</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6">
+                    <!-- <div class="col-lg-3 col-md-4 col-sm-6">
                         <div
                             class="service-card-v1 tmponhover tmp-scroll-trigger tmp-fade-in animation-order-4 tmp-link-animation">
                             <div class="service-card-icon">
@@ -306,7 +270,7 @@
                                     href="service-details.html">Marketing</a></h4>
                             <p class="service-para">331 Prodect</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -1639,8 +1603,12 @@
                                         <div id="form-messages"
                                             class="error"></div>
                                         <form class="tmp-dynamic-form"
-                                            id="contact-form" method="POST"
-                                            action="https://inversweb.com/product/html/virtuo/mailer.php">
+                                            id="contact-form"
+                                            action="https://api.web3forms.com/submit"
+                                            method="POST">
+                                            <input type="hidden"
+                                                name="access_key"
+                                                value="9888f868-be6d-4c4c-8d75-8f54fe3b672a">
                                             <div
                                                 class="contact-form-wrapper row">
                                                 <div class="col-lg-6">
@@ -1973,12 +1941,18 @@
                                     </div>
                                     <p class="description"><span>Get
                                             Ready</span> To Create Great</p>
-                                    <form action="#"
-                                        class="newsletter-form-1 mt--40">
+                                    <form
+                                        class="newsletter-form-1 mt--40"
+                                        action="https://api.web3forms.com/submit"
+                                        method="POST">
+                                        <input type="hidden"
+                                            name="access_key"
+                                            value="9888f868-be6d-4c4c-8d75-8f54fe3b672a">
                                         <input type="email"
                                             placeholder="Email Adress">
                                         <span class="form-icon"><i
                                                 class="fa-regular fa-envelope"></i></span>
+
                                     </form>
                                 </div>
                             </div>
@@ -2138,7 +2112,12 @@
                         <div class="comment-inner">
                             <h3 class="title mb--40 mt--50">Leave a Reply</h3>
                             <div class="tmp-contact-form contact-form-style-1">
-                                <form action="#">
+                                <form
+                                    action="https://api.web3forms.com/submit"
+                                    method="POST">
+                                    <input type="hidden"
+                                        name="access_key"
+                                        value="9888f868-be6d-4c4c-8d75-8f54fe3b672a">
                                     <div class="row g-5">
                                         <div class="col-lg-6">
                                             <div class="form-group">
@@ -2310,7 +2289,12 @@
                         Please fill out the form below to start chatting with me
                         directly.
                     </div>
-                    <form class="tmp-dynamic-form" action="#">
+                    <form class="tmp-dynamic-form"
+                        action="https://api.web3forms.com/submit"
+                        method="POST">
+                        <input type="hidden"
+                            name="access_key"
+                            value="9888f868-be6d-4c4c-8d75-8f54fe3b672a">
                         <div class="field">
                             <input class="input-field" name="name"
                                 placeholder="Your Name" type="text" required>
